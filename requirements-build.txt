@@ -1,0 +1,4 @@
+# Extra packages needed only to build the .exe (python build_exe.py).
+# Not needed to just run the site with manage.py runserver.
+-r requirements.txt
+pyinstaller>=6.0

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Local env / secrets
+.env
+
+# PyInstaller build output
+build/
+dist/
+*.spec.bak
+period_manager.egg-info/
+
+# Inno Setup output
+Output/
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
