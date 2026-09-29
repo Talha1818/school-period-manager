@@ -33,7 +33,7 @@ body { background: var(--bg); color: var(--text); }
 /* Layout */
 .main { margin-left: var(--sidebar-w); min-height: 100vh; }
 .topbar { display: flex; align-items: center; gap: 12px; padding: 18px 28px; background: rgba(255,255,255,.85); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1030; }
-.page-title { font-size: 1.35rem; font-weight: 700; margin: 0; }
+.page-title { font-size: 1.15rem; font-weight: 600; margin: 0; }
 .content { padding: 26px 28px 40px; }
 
 /* Buttons */
@@ -43,10 +43,10 @@ body { background: var(--bg); color: var(--text); }
 .today-date { color: var(--muted); font-size: .88rem; font-weight: 500; white-space: nowrap; }
 
 /* Stat cards */
-.stat { display: flex; align-items: center; gap: 16px; padding: 20px; border-radius: 16px; color: #fff; box-shadow: 0 8px 20px rgba(30,41,59,.10); }
-.stat i { font-size: 2rem; opacity: .9; background: rgba(255,255,255,.2); width: 54px; height: 54px; border-radius: 14px; display: grid; place-items: center; }
-.stat-num { font-size: 1.9rem; font-weight: 700; line-height: 1; }
-.stat-lbl { opacity: .9; font-size: .88rem; margin-top: 4px; }
+.stat { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 14px; color: #fff; box-shadow: 0 6px 14px rgba(30,41,59,.10); }
+.stat i { font-size: 1.4rem; opacity: .9; background: rgba(255,255,255,.2); width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; }
+.stat-num { font-size: 1.4rem; font-weight: 700; line-height: 1; }
+.stat-lbl { opacity: .9; font-size: .76rem; margin-top: 2px; }
 .stat-blue { background: linear-gradient(135deg,#6366f1,#4338ca); }
 .stat-green { background: linear-gradient(135deg,#10b981,#047857); }
 .stat-amber { background: linear-gradient(135deg,#f59e0b,#d97706); }
@@ -55,7 +55,7 @@ body { background: var(--bg); color: var(--text); }
 /* Cards & tables */
 .card-box { background: var(--card); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 2px 10px rgba(30,41,59,.04); overflow: hidden; height: 100%; }
 .card-head { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; border-bottom: 1px solid var(--border); }
-.card-head h5 { margin: 0; font-size: 1.02rem; font-weight: 600; }
+.card-head h5 { margin: 0; font-size: .92rem; font-weight: 600; }
 .card-box .table thead th { background: #f8fafc; color: var(--muted); font-size: .76rem; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; border-bottom: 1px solid var(--border); padding: 12px 16px; white-space: nowrap; }
 .card-box .table td { padding: 12px 16px; border-color: var(--border); }
 .empty { text-align: center; color: var(--muted); padding: 28px !important; }
@@ -69,12 +69,12 @@ body { background: var(--bg); color: var(--text); }
 .btn-icon-del:hover { background: #ef4444; color: #fff; }
 
 /* Grid tables (class wise / teacher wise) */
-.hint { color: var(--muted); font-size: .9rem; }
+.hint { color: var(--muted); font-size: .78rem; margin-bottom: 10px; }
 .hint i { color: #f59e0b; }
 .grid-wrap { max-height: calc(100vh - 210px); }
 .grid-table { min-width: 900px; }
 .grid-table thead th { text-align: center; position: sticky; top: 0; z-index: 3; }
-.grid-table th.sticky-col, .grid-table td.sticky-col { position: sticky; left: 0; background: #fff; z-index: 2; box-shadow: 1px 0 0 var(--border); text-align: left; min-width: 150px; }
+.grid-table th.sticky-col, .grid-table td.sticky-col { position: sticky; left: 0; background: #fff; z-index: 2; border-right: 2px solid var(--primary); text-align: left; min-width: 150px; }
 .grid-table thead th.sticky-col { z-index: 4; background: #f8fafc; }
 .class-name { font-weight: 700; }
 .class-name .sub { font-weight: 400; color: var(--muted); font-size: .78rem; }
